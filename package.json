@@ -1,0 +1,27 @@
+{
+  "name": "passport-stack-exchange-token",
+  "version": "0.1.0",
+  "description": "Stack Exchange token authentication strategy for Passport.",
+  "author": {
+    "name": "Nazar Mozol",
+    "email": "work.nazar.mozol@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/acruxray/passport-stack-exchange-token.git"
+  },
+  "bugs": {
+    "url": "http://github.com/acruxray/passport-stack-exchange-token/issues"
+  },
+  "main": "./lib/index.js",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "^1.0.0"
+  },
+  "engines": { "node": ">= 0.4.0" },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "keywords": ["passport", "google", "auth", "authn", "authentication", "identity"]
+}
