@@ -16,7 +16,8 @@
   "main": "./lib/index.js",
   "dependencies": {
     "pkginfo": "0.2.x",
-    "passport-oauth": "^1.0.0"
+    "passport-oauth": "^1.0.0",
+    "request": "^2.83.0"
   },
   "engines": { "node": ">= 0.4.0" },
   "licenses": [ {
