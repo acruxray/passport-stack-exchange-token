@@ -1,4 +1,4 @@
-# Passport-Google-Token
+# Passport-Stack-Exchange-Token
 
 [Passport](http://passportjs.org/) strategy for authenticating with [Stack Exchange](https://stackexchange.com/)  access tokens using the OAuth 2.0 API.
 
