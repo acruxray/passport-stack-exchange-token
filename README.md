@@ -29,7 +29,7 @@ var StackExchangeTokenStrategy = require('passport-stack-exchange-token').Strate
 passport.use(new StackExchangeTokenStrategy({
     clientID: STACK_EXCHANGE_CLIENT_ID,
     clientSecret: STACK_EXCHANGE_CLIENT_SECRET,
-    stackAppsKey: STACKEXCHANGE_APPS_KEY,
+    stackAppsKey: STACK_EXCHANGE_APPS_KEY,
     site: 'stackoverflow'
   },
   function(accessToken, refreshToken, profile, done) {
